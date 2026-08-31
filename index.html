@@ -33,7 +33,6 @@
       <p class="lede">Chipped, cracked, or shattered glass doesn&rsquo;t wait for a convenient day. We handle windshield replacement, chip and crack repair, and side and rear window work at your home or workplace anywhere in the Merrimack Valley.</p>
       <div class="hero-cta">
         <a class="btn btn-call" href="tel:+13519007501">Call Now for a Free Quote</a>
-        <a class="btn btn-ghost" href="contact.html">Get a Free Quote Online</a>
       </div>
       <ul class="hero-pts">
         <li>Mobile service at your driveway</li>
@@ -41,11 +40,50 @@
         <li>ADAS camera recalibration</li>
       </ul>
     </div>
-    <div class="hero-img">
-      <img src="auto-glass-repair-haverhill-hero.webp" alt="Auto glass repair in Haverhill, MA" width="1600" height="900">
+    <div class="hero-form">
+      <h2>Get a Free Quote</h2>
+      <p class="sub">Tell us the vehicle and what happened. We reply with a real number &mdash; recalibration included, no second invoice.</p>
+      <form action="https://formspree.io/f/mnpqjaoy" method="POST">
+        <div class="row2">
+          <div class="field">
+            <label for="hf-name">Name</label>
+            <input type="text" id="hf-name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="hf-phone">Phone</label>
+            <input type="tel" id="hf-phone" name="phone" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="hf-vehicle">Vehicle year, make and model</label>
+          <input type="text" id="hf-vehicle" name="vehicle" placeholder="e.g. 2019 Honda CR-V" required>
+        </div>
+        <div class="field">
+          <label for="hf-service">What do you need?</label>
+          <select id="hf-service" name="service">
+            <option>Windshield replacement</option>
+            <option>Windshield chip or crack repair</option>
+            <option>Side or rear window replacement</option>
+            <option>ADAS camera recalibration</option>
+            <option>Not sure &mdash; please advise</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hf-town">Town the vehicle is in</label>
+          <input type="text" id="hf-town" name="town" placeholder="e.g. Bradford" required>
+        </div>
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1">
+        <button type="submit" class="submit">Get My Free Quote</button>
+      </form>
+      <p class="hero-note">Prefer to talk? Call <a href="tel:+13519007501">(351) 900-7501</a> &mdash; fastest way to get an answer.</p>
     </div>
   </div>
 </header>
+
+<!-- IMAGE BAND -->
+<div class="imgband">
+  <img src="auto-glass-repair-haverhill-hero.webp" alt="Mobile auto glass repair in Haverhill, MA" width="1600" height="900">
+</div>
 
 <!-- WHAT IS IT -->
 <section class="section">
@@ -113,6 +151,40 @@
         <div class="note" style="margin-top:20px"><strong>Cold-weather note:</strong> urethane cures slower below freezing. In January we build extra cure time into the appointment rather than releasing a car early.</div>
       </div>
       <div><img src="windshield-urethane-seal-haverhill.webp" alt="Windshield installation in Haverhill, MA" width="900" height="600"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES GRID -->
+<section class="section">
+  <div class="wrap">
+    <p class="kicker">What We Handle</p>
+    <h2>Auto Glass Services Across the Merrimack Valley</h2>
+    <div class="grid g3" style="margin-top:26px">
+      <a class="svc-card" href="windshield-replacement-haverhill-ma.html">
+        <img src="windshield-replacement-haverhill.webp" alt="Windshield replacement in Haverhill, MA" width="900" height="600">
+        <div class="body">
+          <h3>Windshield Replacement</h3>
+          <p>New glass bonded in fresh urethane, with any required camera recalibration quoted in the same number.</p>
+          <span class="more">See windshield replacement &rarr;</span>
+        </div>
+      </a>
+      <a class="svc-card" href="windshield-chip-crack-repair-haverhill-ma.html">
+        <img src="windshield-chip-repair-haverhill.webp" alt="Windshield chip repair in Haverhill, MA" width="1600" height="1066">
+        <div class="body">
+          <h3>Chip &amp; Crack Repair</h3>
+          <p>Thirty minutes in your driveway. Catch a stone chip early and you never need the glass replaced at all.</p>
+          <span class="more">See chip &amp; crack repair &rarr;</span>
+        </div>
+      </a>
+      <a class="svc-card" href="side-rear-window-replacement-haverhill-ma.html">
+        <img src="side-window-replacement-haverhill.webp" alt="Side window replacement in Haverhill, MA" width="1600" height="1066">
+        <div class="body">
+          <h3>Side &amp; Rear Windows</h3>
+          <p>Tempered glass cannot be repaired. We replace it and vacuum every cube out of the door and seat rails.</p>
+          <span class="more">See side &amp; rear glass &rarr;</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
